@@ -1,0 +1,206 @@
+[
+    {
+        "EventID": 4625,
+        "SourceName": "Microsoft-Windows-Security-Auditing",
+        "TimeGenerated": "2025-07-07 10:00:00",
+        "ComputerName": "WIN-SERVER-01",
+        "EventType": "Failure Audit",
+        "Category": 12544,
+        "Strings": [
+            "S-1-5-21-1234567890-123456789-1234567890-1001",
+            "user_failed",
+            "192.168.1.100",
+            "3"
+        ]
+    },
+    {
+        "EventID": 4625,
+        "SourceName": "Microsoft-Windows-Security-Auditing",
+        "TimeGenerated": "2025-07-07 10:00:10",
+        "ComputerName": "WIN-SERVER-01",
+        "EventType": "Failure Audit",
+        "Category": 12544,
+        "Strings": [
+            "S-1-5-21-1234567890-123456789-1234567890-1001",
+            "user_failed",
+            "192.168.1.100",
+            "3"
+        ]
+    },
+    {
+        "EventID": 4625,
+        "SourceName": "Microsoft-Windows-Security-Auditing",
+        "TimeGenerated": "2025-07-07 10:00:20",
+        "ComputerName": "WIN-SERVER-01",
+        "EventType": "Failure Audit",
+        "Category": 12544,
+        "Strings": [
+            "S-1-5-21-1234567890-123456789-1234567890-1001",
+            "user_failed",
+            "192.168.1.100",
+            "3"
+        ]
+    },
+    {
+        "EventID": 4625,
+        "SourceName": "Microsoft-Windows-Security-Auditing",
+        "TimeGenerated": "2025-07-07 10:00:30",
+        "ComputerName": "WIN-SERVER-01",
+        "EventType": "Failure Audit",
+        "Category": 12544,
+        "Strings": [
+            "S-1-5-21-1234567890-123456789-1234567890-1001",
+            "user_failed",
+            "192.168.1.100",
+            "3"
+        ]
+    },
+    {
+        "EventID": 4625,
+        "SourceName": "Microsoft-Windows-Security-Auditing",
+        "TimeGenerated": "2025-07-07 10:00:40",
+        "ComputerName": "WIN-SERVER-01",
+        "EventType": "Failure Audit",
+        "Category": 12544,
+        "Strings": [
+            "S-1-5-21-1234567890-123456789-1234567890-1001",
+            "user_failed",
+            "192.168.1.100",
+            "3"
+        ]
+    },
+    {
+        "EventID": 4625,
+        "SourceName": "Microsoft-Windows-Security-Auditing",
+        "TimeGenerated": "2025-07-07 10:00:50",
+        "ComputerName": "WIN-SERVER-01",
+        "EventType": "Failure Audit",
+        "Category": 12544,
+        "Strings": [
+            "S-1-5-21-1234567890-123456789-1234567890-1001",
+            "user_failed",
+            "192.168.1.100",
+            "3"
+        ]
+    },
+    {
+        "EventID": 4740,
+        "SourceName": "Microsoft-Windows-Security-Auditing",
+        "TimeGenerated": "2025-07-07 10:05:00",
+        "ComputerName": "WIN-SERVER-01",
+        "EventType": "Success Audit",
+        "Category": 12288,
+        "Strings": [
+            "user_locked_out",
+            "-1",
+            "S-1-5-21-1234567890-123456789-1234567890-1002"
+        ]
+    },
+    {
+        "EventID": 4624,
+        "SourceName": "Microsoft-Windows-Security-Auditing",
+        "TimeGenerated": "2025-07-07 03:00:00",
+        "ComputerName": "WIN-WORKSTATION-01",
+        "EventType": "Success Audit",
+        "Category": 12544,
+        "Strings": [
+            "S-1-5-21-1234567890-123456789-1234567890-1003",
+            "admin_user",
+            "10.0.0.5",
+            "2"
+        ]
+    },
+    {
+        "EventID": 4720,
+        "SourceName": "Microsoft-Windows-Security-Auditing",
+        "TimeGenerated": "2025-07-07 11:30:00",
+        "ComputerName": "DOMAIN-CONTROLLER",
+        "EventType": "Success Audit",
+        "Category": 6144,
+        "Strings": [
+            "S-1-5-21-1234567890-123456789-1234567890-1004",
+            "new_user",
+            "S-1-5-21-1234567890-123456789-1234567890-500"
+        ]
+    },
+    {
+        "EventID": 4672,
+        "SourceName": "Microsoft-Windows-Security-Auditing",
+        "TimeGenerated": "2025-07-07 14:00:00",
+        "ComputerName": "WIN-SERVER-01",
+        "EventType": "Success Audit",
+        "Category": 13568,
+        "Strings": [
+            "S-1-5-21-1234567890-123456789-1234567890-500",
+            "Administrator",
+            "SeDebugPrivilege"
+        ]
+    },
+    {
+        "EventID": 4663,
+        "SourceName": "Microsoft-Windows-Security-Auditing",
+        "TimeGenerated": "2025-07-07 15:00:00",
+        "ComputerName": "WIN-SERVER-01",
+        "EventType": "Success Audit",
+        "Category": 12800,
+        "Strings": [
+            "S-1-5-21-1234567890-123456789-1234567890-1005",
+            "sensitive_file.txt",
+            "ReadData"
+        ]
+    },
+    {
+        "EventID": 5145,
+        "SourceName": "Microsoft-Windows-Security-Auditing",
+        "TimeGenerated": "2025-07-07 15:30:00",
+        "ComputerName": "WIN-SERVER-01",
+        "EventType": "Success Audit",
+        "Category": 12800,
+        "Strings": [
+            "\\\\WIN-SERVER-01\\share\\unauthorized_access.doc",
+            "S-1-5-21-1234567890-123456789-1234567890-1006",
+            "ReadData"
+        ]
+    },
+    {
+        "EventID": 4688,
+        "SourceName": "Microsoft-Windows-Security-Auditing",
+        "TimeGenerated": "2025-07-07 16:00:00",
+        "ComputerName": "WIN-WORKSTATION-02",
+        "EventType": "Success Audit",
+        "Category": 13568,
+        "Strings": [
+            "C:\\Windows\\System32\\cmd.exe",
+            "C:\\Users\\malicious\\script.bat",
+            "S-1-5-21-1234567890-123456789-1234567890-1007"
+        ]
+    },
+    {
+        "EventID": 4624,
+        "SourceName": "Microsoft-Windows-Security-Auditing",
+        "TimeGenerated": "2025-07-07 23:00:00",
+        "ComputerName": "WIN-WORKSTATION-03",
+        "EventType": "Success Audit",
+        "Category": 12544,
+        "Strings": [
+            "S-1-5-21-1234567890-123456789-1234567890-1008",
+            "night_shift_user",
+            "172.16.0.10",
+            "2"
+        ]
+    },
+    {
+        "EventID": 4723,
+        "SourceName": "Microsoft-Windows-Security-Auditing",
+        "TimeGenerated": "2025-07-07 10:15:00",
+        "ComputerName": "DOMAIN-CONTROLLER",
+        "EventType": "Success Audit",
+        "Category": 6144,
+        "Strings": [
+            "S-1-5-21-1234567890-123456789-1234567890-1009",
+            "user_password_change",
+            "S-1-5-21-1234567890-123456789-1234567890-500"
+        ]
+    }
+]
+

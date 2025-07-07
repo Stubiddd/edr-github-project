@@ -1,0 +1,68 @@
+[
+    {
+        "AlertID": "NEW_USER_CREATION_new_user_2025-07-07_11:30:00",
+        "EventType": "New User Creation",
+        "Severity": "Medium",
+        "Description": "Người dùng mới \"new_user\" đã được tạo.",
+        "Timestamp": "2025-07-07 11:30:00",
+        "RelatedEvents": [
+            {
+                "EventID": 4720,
+                "SourceName": "Microsoft-Windows-Security-Auditing",
+                "TimeGenerated": "2025-07-07 11:30:00",
+                "ComputerName": "DOMAIN-CONTROLLER",
+                "EventType": "Success Audit",
+                "Category": 6144,
+                "Strings": [
+                    "S-1-5-21-1234567890-123456789-1234567890-1004",
+                    "new_user",
+                    "S-1-5-21-1234567890-123456789-1234567890-500"
+                ]
+            }
+        ]
+    },
+    {
+        "AlertID": "PRIVILEGED_ACCOUNT_USAGE_Administrator_2025-07-07_14:00:00",
+        "EventType": "Privileged Account Usage",
+        "Severity": "Low",
+        "Description": "Tài khoản đặc quyền \"Administrator\" đã được sử dụng.",
+        "Timestamp": "2025-07-07 14:00:00",
+        "RelatedEvents": [
+            {
+                "EventID": 4672,
+                "SourceName": "Microsoft-Windows-Security-Auditing",
+                "TimeGenerated": "2025-07-07 14:00:00",
+                "ComputerName": "WIN-SERVER-01",
+                "EventType": "Success Audit",
+                "Category": 13568,
+                "Strings": [
+                    "S-1-5-21-1234567890-123456789-1234567890-500",
+                    "Administrator",
+                    "SeDebugPrivilege"
+                ]
+            }
+        ]
+    },
+    {
+        "AlertID": "SUSPICIOUS_PROCESS_EXECUTION_C:\\Windows\\System32\\cmd.exe_2025-07-07_16:00:00",
+        "EventType": "Suspicious Process Execution",
+        "Severity": "High",
+        "Description": "Tiến trình đáng ngờ \"C:\\Windows\\System32\\cmd.exe\" với dòng lệnh \"C:\\Users\\malicious\\script.bat\" đã được thực thi.",
+        "Timestamp": "2025-07-07 16:00:00",
+        "RelatedEvents": [
+            {
+                "EventID": 4688,
+                "SourceName": "Microsoft-Windows-Security-Auditing",
+                "TimeGenerated": "2025-07-07 16:00:00",
+                "ComputerName": "WIN-WORKSTATION-02",
+                "EventType": "Success Audit",
+                "Category": 13568,
+                "Strings": [
+                    "C:\\Windows\\System32\\cmd.exe",
+                    "C:\\Users\\malicious\\script.bat",
+                    "S-1-5-21-1234567890-123456789-1234567890-1007"
+                ]
+            }
+        ]
+    }
+]
